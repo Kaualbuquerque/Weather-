@@ -1,0 +1,15 @@
+<section class="data">
+    <section class="city">
+        <p class="city-name">{{city | uppercase}}</p>
+        <p class="data-icon"><img src="../../assets/icons/umidade.png" alt="">{{weatherData.main.humidity }}%</p>
+        <p class="data-icon"><img src="../../assets/icons/ventoso.png" alt="">{{weatherData.wind.speed}} m/s</p>
+        <p class="data-icon"><img src="../../assets/icons/temperatura.png" alt="">{{(temp.min)}}° C /
+            {{temp.max}}° C</p>
+    </section>
+    <section class="icon">
+        <img src="{{icon}}">
+    </section>
+    <section class="temp">
+        {{temp.currently}}° C
+    </section>
+</section>

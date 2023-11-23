@@ -3,18 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonCallComponent } from './button-call/button-call.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './search/search.component';
+
+import { FormsModule } from '@angular/forms';
+import { WeatherDataComponent } from './weather-data/weather-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonCallComponent
+    SearchComponent,
+    WeatherDataComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

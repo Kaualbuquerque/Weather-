@@ -1,1 +1,8 @@
-<app-button-call></app-button-call>
+<header>
+    <app-search (sendData)="handleWeatherData($event)" (sendFutureData)="handleFutureWeatherData($event)"
+        (sendCity)="handleCity($event)"></app-search>
+</header>
+
+<main *ngIf="weatherData !== undefined">
+    <app-weather-data [city]="city" [weatherData]="weatherData"></app-weather-data>
+</main>

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #158ED1, #0038FF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+
+    overflow: hidden;
+
+    font-family: 'Roboto', sans-serif;
+}
