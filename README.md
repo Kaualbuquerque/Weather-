@@ -26,7 +26,7 @@ Aqui, você pode obter informações atualizadas sobre as condições climática
 - CSS3
 - TypeScript
   
-- **API de Dados Climáticos:*8
+- **API de Dados Climáticos:**
 -Integramos com a API [OpenWeather](https://openweathermap.org) para fornecer informações precisas e atualizadas.
 
 ## Devs
